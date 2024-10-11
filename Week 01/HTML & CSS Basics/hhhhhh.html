@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Example</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content label {
+            display: block;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+        .dropdown-content label:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="dropdown">
+    <label for="options">Select an option:</label>
+    <div class="dropdown-content" id="options">
+        <label><input type="checkbox" value="apple"> Apple</label>
+        <label><input type="checkbox" value="banana"> Banana</label>
+        <label><input type="checkbox" value="orange"> Orange</label>
+        <label><input type="checkbox" value="carrot"> Carrot</label>
+        <label><input type="checkbox" value="broccoli"> Broccoli</label>
+        <label><input type="checkbox" value="milk"> Milk</label>
+    </div>
+</div>
+
+</body>
+</html>

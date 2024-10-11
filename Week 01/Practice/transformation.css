@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    font-size: 100px;
+    text-align: center;
+    border: 4px solid;
+    border-radius: 10px;
+}
+
+#box1 {
+    background-color: greenyellow;
+    transform: translateX(100px);
+}
+
+#box2 {
+    background-color: tan;
+    transform: translateY(100px);
+}
+
+#box3 {
+    background-color: aqua;
+    transform: translate(100px,100px);
+}
+
+#box4 {
+    background-color: red;
+    transform: rotateZ(45deg);
+}
+
+#box5 {
+    background-color: tomato;
+    transform: scaleX(0.5);
+}
+
+#box6 {
+    background-color: wheat;
+    transform: skew(45deg, 30deg);
+}
+
+
+

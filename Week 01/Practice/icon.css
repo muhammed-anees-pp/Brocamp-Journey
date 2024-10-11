@@ -1,0 +1,25 @@
+.icon-size {
+    font-size: 50px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-facebook:hover{
+    color: brown;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.icons a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+

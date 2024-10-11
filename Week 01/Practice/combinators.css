@@ -1,0 +1,19 @@
+.container {
+    border: 3px solid black;
+}
+
+.container p { /*Descendant*/
+    color: rgb(216, 16, 16);
+}
+
+.container > p { /*Child */
+    background-color: rgb(159, 159, 167);
+}
+
+.container+p {
+    font-weight: bold;
+}
+
+.container~p {
+    font-style: italic;
+}

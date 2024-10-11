@@ -1,0 +1,86 @@
+.box {
+    width: 250px;
+    height: 250px;
+    font-size: 13em;
+    text-align: center;
+}
+
+
+#box1 {    
+    background-color: hsl(0, 100%, 62%);
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+
+@keyframes slideLeft {
+    from{transform: translateX(100%)}
+}
+
+#box2 {    
+    background-color: hsl(0, 35%, 36%);
+    animation-name: slidedown;
+    animation-duration: 2s;
+}
+
+@keyframes slidedown {
+    to{transform: translateY(100%)}
+}
+
+#box3 {
+    background-color: red;
+    animation-name: rotatez;
+    animation-duration: 2s;
+}
+
+@keyframes rotatez {
+    100%{transform: rotateZ(360deg);}
+}
+
+#box4 {
+    background-color: blue;
+    animation-name: rotatehalf;
+    animation-duration: 2s;
+    animation-timing-function: steps(5);
+}
+
+@keyframes rotatehalf {
+    50%{transform: rotateZ(360deg);}
+}
+
+#box5 {
+    background-color: blueviolet;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+
+@keyframes grow {
+    50%{transform: scale(1.5,1.5);}
+}
+
+#box6 {
+    background-color: burlywood;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+    100%{opacity: 0}
+}
+
+#box7 {
+    background-color: yellow;
+}
+
+#box7:hover {
+    animation-name: colorChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+    0%{background-color: rgb(255, 255, 255);}
+    20%{background-color: aqua;}
+    40%{background-color: blue;}
+    80%{background-color: red;}
+    100%{background-color: wheat;}
+}

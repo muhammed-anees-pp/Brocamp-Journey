@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    background-color: rgb(122, 115, 115);
+}
+
+.para1 {
+    color: tomato;
+    font-family: "Open Sans";
+}
+
+.para2 {
+    color: #241049;
+    font-family: Roboto;
+}
+
+.para3 {
+    font-family: Roboto;
+    color: hsl(0, 91%, 46%);
+}

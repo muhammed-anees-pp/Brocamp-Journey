@@ -1,0 +1,14 @@
+#title {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.content {
+    color: brown;
+    font-style: italic;
+}
+
+h3.content {
+    color: blue;
+    font-style: oblique;
+}
