@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name-inp">
+    <button onclick="display()">Click here</button>
+    <h1 id="display-head"></h1>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age-inp">
+    <button onclick="display2()">Check two</button>
+    <h4 id="age-display"></h4>
+
+
+    <script>
+        function display() {
+            var text=document.getElementById("name-inp").value
+            document.getElementById("display-head").innerHTML=text
+            alert(text)
+        }
+
+        function display2() {
+            var age=document.getElementById("age-inp").value
+            document.getElementById("age-display").innerHTML=age
+
+            if(age<18){
+                alert("Age Restricted")
+            }else{
+                alert("You can access")
+            }
+        }
+    </script>
+
+</body>
+</html>

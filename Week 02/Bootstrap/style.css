@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+.container {
+    border: 3px solid black;
+}
+
+.row {
+    border: 3px solid blue;
+
+}
+
+.col-1, .col-9, .col-3, .col-12, .col-sm-6, .col-md-4, .col-lg-3, .col-xl-2 {
+    border: 2px solid green;
+    background-color: tomato;
+}
+
+/*margin and padding*/
