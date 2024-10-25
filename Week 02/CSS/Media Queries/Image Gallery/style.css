@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section {
+    flex: 25%;
+    padding: 2px;
+}
+
+.section img {
+    width: 100%;
+    transform: scale(0.7);
+}
+
+.section img:hover {
+    transform: scale(1) rotate(-45deg);
+}
+
+@media screen and (max-width:991px) {
+    .section {
+        flex: calc(100% / 3);
+    }
+}
+
+@media screen and (max-width:556px) {
+    .section {
+        flex: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width:556px) {
+    .section {
+        flex: 100%;
+    }
+}

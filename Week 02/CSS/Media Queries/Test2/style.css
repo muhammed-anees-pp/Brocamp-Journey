@@ -1,0 +1,13 @@
+.section-1 {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+
+@media screen and (orientation:landscape) {
+    
+    .section-1 {
+        background-color: green;
+    }
+    
+}
