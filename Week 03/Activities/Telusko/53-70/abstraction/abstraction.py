@@ -17,4 +17,4 @@ class Example2(Main):
         print("Example 2")
 
 obj = Example2()
-obj.mainMethod()
+# obj.mainMethod()
