@@ -1,0 +1,29 @@
+{% extends "master.html" %}
+<!-- <!DOCTYPE html>
+<html>
+<body>
+    <h1>Members</h1>
+    <ul>
+        {% for member in mymembers %}
+            <p>{{ member.first_name }} {{ member.last_name }}</p>
+            <a href="{% url 'details' member.id %}">View Details</a>
+        {% endfor %}
+    </ul>
+</body>
+</html> -->
+
+
+{% block title %}
+    My Members List
+{% endblock %}
+
+{% block content %}
+    <div class="mycard">
+        <h1>Members</h1>
+        <ul>
+            {% for member in mymembers %}
+                <li onclick="window.location = 'details/{{ member.slug }}'">{{ member.first_name }} {{ member.last_name }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
