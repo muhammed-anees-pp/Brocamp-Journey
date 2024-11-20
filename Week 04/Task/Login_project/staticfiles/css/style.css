@@ -1,0 +1,33 @@
+/* Add a light background for the entire page */
+body {
+    background-color: #eef2f7;
+}
+
+/* Customize the card appearance */
+.card {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input styling */
+.form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ced4da;
+    font-size: 0.95rem;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+}
+
+.custom-logout-btn {
+    padding: 15px 30px; /* Adjust padding for size */
+    font-size: 1.25rem; /* Adjust font size */
+}

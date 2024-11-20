@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Login Project</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                {% comment %} <li class="nav-item">
+                    <a href="{% url 'logout' %}" class="nav-link">Logout</a>
+                </li> {% endcomment %}
+            </ul>
+        </div>
+    </div>
+</nav>
+{% endblock %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <h3>Welcome to the Home Page</h3>
+    <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+</div>
+{% endblock %}
