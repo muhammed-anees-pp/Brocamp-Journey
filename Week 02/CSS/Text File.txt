@@ -1,0 +1,1 @@
+Covered the basics of bootstrap and learned about media query
