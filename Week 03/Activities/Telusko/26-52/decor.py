@@ -1,7 +1,8 @@
 def greet_decor(func):
     def update():
-        print("Hello, Good Morning!!!")
         func()
+        print("Hello, Good Morning!!!")
+        
     return update
 
 @greet_decor
