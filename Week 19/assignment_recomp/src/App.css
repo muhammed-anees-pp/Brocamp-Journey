@@ -1,0 +1,35 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+
+  display: flex;         
+  flex-wrap: wrap;      
+  justify-content: center; 
+  gap: 20px;             
+  padding: 20px;
+}
+
+.profile__card {
+  background-color: #4fa6d6;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  width: 250px;          
+  box-sizing: border-box;
+} */
+
+/*     *****************     */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.profile__card {
+  background-color: #4fa6d6;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  color: white;
+  width: 300px;
+}
