@@ -5,8 +5,6 @@ This repository contains my personal notes and references for learning and under
 You can view the full notes here:
 👉 [View Redux Notes on Notion](https://www.notion.so/Redux-29043b0812b280f8a187fa0909e47ebc?source=copy_link)
 
----
-
 ### 📖 Description
 
 These notes cover key Redux concepts, including:
